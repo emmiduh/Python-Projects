@@ -15,7 +15,7 @@ def main():
     global already_guessed
     global length
     global play_game
-    words_to_guess = ["abundance", "energy", "light", "eye", "skill", "time", "date", "purpose", "travel"]
+    words_to_guess = ["abundance", "energy", "light", "joy", "skill", "time", "overseas", "purpose", "travel"]
     word = random.choice(words_to_guess)
     length = len(word)
     count = 0
