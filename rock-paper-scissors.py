@@ -4,7 +4,7 @@ import random
 window = Tk()
 window.geometry('400x400')
 window.title("Rock Paper Scissors Game")
-window. resizable(width=False, height=False)
+window.resizable(width=False, height=False)
 window.config(bg='light blue')
 
 Label(window, text='Rock, Paper, Scissors', font='arial 20 bold', bg='light blue').pack()
